@@ -1,0 +1,90 @@
+.carousel-caption span.lavendar {
+    background-color: rgba(153, 50, 204, 0.7);
+}
+
+.carousel-caption span.blue {
+    background-color: rgba(0, 108, 199, 0.7);
+}
+
+.carousel-caption span.skyblue {
+    background-color: rgba(3, 92, 98, 0.7);
+}
+.carousel-caption{
+    top:0%;
+    left:0px;
+    right:0px;
+}
+.carousel-caption span {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 15px 15px;
+    border-top: 7px solid #db7708;
+    border-radius: 4px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+}
+
+.carousel-caption span .btn.btn-default {
+    border-color: #db7708;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #db7708;
+}
+
+.carousel-caption span .btn-custom {
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    transition: 0.5s all ease-in-out;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.carousel-caption span h3 {
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.carousel-caption span p {
+    color: #f2f2f2;
+    margin: 20px 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .carousel-caption span {
+        width: 70%;
+        top: 32%;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .carousel-caption span {
+        width: 90%;
+    }
+    .carousel-caption span p {
+        font-size: 11px;
+        margin: 5px 0;
+    }
+    .slider, .carousel-caption {
+        height: 100vh;
+    }
+    .carousel-caption span .btn-custom {
+        font-size: 8px;
+    }
+    .carousel-caption span {
+        top:55%;
+    }
+    .carousel-caption span h3 {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+}
+@media (orientation: landscape) {
+
+}
